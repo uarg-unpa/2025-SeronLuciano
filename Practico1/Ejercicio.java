@@ -1,16 +1,16 @@
 import java.util.Scanner;
-public class Ejercicio.java 
+public class Ejercicio {
     public static void main (String[] args) {
-        char Dia;
+        char dia;
         Scanner scanner = new Scanner(System.in);
        
         System.out.print("ingrese la letra correspondiente a un dia de la semana");
-        char Dia = scanner.next();
+        dia = scanner.next().charAt(0);
         
-        if (Dia == 'M'|| Dia == 'I'|| Dia == 'J'){
+        if (dia == 'M'|| dia == 'I'|| dia == 'J'){
             System.out.println("HOY TENGO PROGRAMACION DE ALGORITMOS");
 
-        }else  if (Dia == 'L'|| Dia == 'V'|| Dia == 'S'|| Dia == 'D'){
+        }else  if (dia == 'L'|| dia == 'V'|| dia == 'S'|| dia == 'D'){
             System.out.println("HOY NO TENGO PROGRAMACION DE ALGORITMOS");
 
         } else {
@@ -21,7 +21,7 @@ public class Ejercicio.java
     
     
     }
-
+}
 
 
 
