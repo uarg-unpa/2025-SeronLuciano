@@ -3,7 +3,9 @@
 public class PruebaNave {
     public static void main(String[] args) {
         
-        Nave nave1 = new Nave ("Eli",20,"Dios",50000);
+        Nave nave1 = new Nave ("Eli",122,"EL SOL",50000);
+    //ACELERAR
+
         nave1.acelerar(10000);
         System.out.println ("Velocidad actual: "+ nave1.getVelocidad() +" km/h");
         System.out.println();

@@ -56,7 +56,7 @@ public String getDestino() {
 public void Informe (){
     System.out.println("------INFORME DE LA MISION------  ");
     System.out.println("DESTINO: "+ destino);
-    System.out.println("VELOCIDAD ACTUAL: "+ velocidad +" / "+ "VELOCIDAD MAXIMA: "+velocidadMax);
+    System.out.println("VELOCIDAD ACTUAL: "+ velocidad +" / "+ "VELOCIDAD MAXIMA: "+ velocidadMax);
     System.out.println("COMBUSTIBLE RESTANTE: "+ combustible);
     System.out.println(nombre+" puede llegar a "+ destino + (llegaDestino()?  " SI" : " NO"  ));
 }
