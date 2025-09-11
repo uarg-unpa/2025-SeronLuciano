@@ -1,4 +1,4 @@
-public class Domicilio {
+ public class Domicilio {
     private String calle;
     private int numero;
 
@@ -23,4 +23,3 @@ public class Domicilio {
     public String toString() {
         return calle + " " + numero;
     }
-}
