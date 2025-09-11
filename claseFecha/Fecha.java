@@ -29,20 +29,21 @@ private boolean validarFecha (int dia,int mes, int año){
         return false;
     }
 
-    if (mes < 12 && mes > 0 ) {
-        return true; 
+       else  {
+            if (mes < 12 && mes > 0 ) {
+                 return true; 
         
-    } else {
-        return false;
-    }
-
-
-    if (año > 0){
-        return true;
-    }else {
-        return false;
-    }
-
+         } else {
+            return false;
+         
+         }     
+        }    else  {}
+              if (año > 0){
+                     return true;
+                }else {
+                        return false;
+                }
+            }          
 }
 
 //------------------set
@@ -79,38 +80,9 @@ public int getAño (){
 
 // metodo para saber nombres de meses
 
-public String Meses (){
-    switch (mes){
-
-        case 1 ->  "Enero";
-        break;
-        case 2 -> "Febrero";
-        break;
-        case 3 -> "Marzo";
-        break;
-        case 4 -> "Abril";
-        break;
-        case 5 -> "Mayo";
-        break;
-        case 6 -> "Junio";
-        break;
-        case 7 -> "Julio";
-        break;
-        case 8 -> "Agosto";
-        break;
-        case 9 -> "Septiembre";
-        break;
-        case 10 -> "Octubre";
-        break;
-        case 11 -> "Noviembre";
-        break;
-        case 12 -> "Diciembre";
-        break;
-        default -> "Mes incorrecto";
-        break;
 
 
-    }
+    
 public String mostrarFecha() {
     System.out.println(dia + " de "+ Meses () + " del " + año );
 
