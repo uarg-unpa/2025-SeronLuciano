@@ -40,10 +40,12 @@ Vehiculo auto2 = new Vehiculo (motor2,marca,modelo);
 
 
 
+
 //actuaizar tipo
 System.out.println("ingresar nuevo tipo motor");
 String nuevoTipo = scanner.nextLine();
 auto2.actualizarTipo(nuevoTipo);
+
 
 
 
