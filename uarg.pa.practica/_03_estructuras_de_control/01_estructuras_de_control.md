@@ -78,7 +78,7 @@ Usa `switch` para seleccionar entre múltiples opciones basadas en un valor.
           System.out.println("Ingrese un número para obtener el Trimestre");
           int nro = scanner.nextInt();
           switch (nro) {
-              case 1:
+              case 1:  
                   System.out.println("Primer Trimestre");
                   break;
               case 2:
